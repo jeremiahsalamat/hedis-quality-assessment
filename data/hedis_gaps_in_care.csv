@@ -1,0 +1,301 @@
+member_id,age_group,gender,plan_type,region,provider_id,hedis_measure,compliance_status,gap_identified_date,outreach_attempted,gap_closed,gap_closed_date,measurement_year
+MBR48289,65-74,F,HMO_Gold,Westside,PRV338,BCS_Mammogram,Compliant,,,,,2024
+MBR28058,18-34,M,PPO_Premium,Downtown LA,PRV674,CDC_HbA1c_Testing,Compliant,,,,,2024
+MBR72084,50-64,F,Medi-Cal,Westside,PRV125,BCS_Mammogram,Compliant,,,,,2024
+MBR64396,50-64,M,HMO_Silver,East LA,PRV189,CDC_Eye_Exam,Compliant,,,,,2024
+MBR66206,65-74,F,PPO_Premium,East LA,PRV617,BCS_Mammogram,Non-Compliant,2024-08-14,1,1,2024-12-24,2024
+MBR19120,18-34,F,PPO_Standard,Downtown LA,PRV674,CDC_Eye_Exam,Compliant,,,,,2024
+MBR61546,18-34,M,Medi-Cal,San Fernando Valley,PRV338,PDC_Medication_Adherence,Excluded,,,,,2024
+MBR64959,65-74,F,PPO_Standard,South Bay,PRV754,BCS_Mammogram,Non-Compliant,2024-11-08,0,0,,2024
+MBR68482,35-49,F,PPO_Standard,Downtown LA,PRV674,CDC_Eye_Exam,Non-Compliant,2024-02-13,1,1,2024-04-17,2024
+MBR78219,75+,F,HMO_Silver,San Fernando Valley,PRV132,PDC_Medication_Adherence,Compliant,,,,,2024
+MBR54657,35-49,M,HMO_Gold,East LA,PRV195,BCS_Mammogram,Compliant,,,,,2024
+MBR49838,65-74,M,HMO_Gold,South Bay,PRV854,PDC_Medication_Adherence,Compliant,,,,,2024
+MBR16256,18-34,F,PPO_Standard,East LA,PRV127,CDC_HbA1c_Testing,Compliant,,,,,2024
+MBR40945,75+,M,PPO_Standard,South Bay,PRV204,PDC_Medication_Adherence,Non-Compliant,2024-12-31,1,0,,2024
+MBR23792,50-64,M,PPO_Standard,Downtown LA,PRV859,CDC_Eye_Exam,Non-Compliant,2024-07-29,1,1,2024-08-31,2024
+MBR72423,35-49,F,HMO_Gold,South Bay,PRV617,PDC_Medication_Adherence,Compliant,,,,,2024
+MBR83265,75+,F,PPO_Standard,East LA,PRV532,CBP_BP_Control,Excluded,,,,,2024
+MBR74165,65-74,M,HMO_Silver,East LA,PRV381,CBP_BP_Control,Non-Compliant,2024-03-07,0,0,,2024
+MBR79355,18-34,M,PPO_Premium,Downtown LA,PRV214,CDC_Eye_Exam,Non-Compliant,2024-07-08,0,1,2024-10-20,2024
+MBR24461,18-34,F,Medi-Cal,South Bay,PRV214,PDC_Medication_Adherence,Compliant,,,,,2024
+MBR58688,50-64,F,PPO_Standard,South Bay,PRV532,CDC_HbA1c_Testing,Non-Compliant,2024-03-13,0,0,,2024
+MBR49998,50-64,M,HMO_Silver,Downtown LA,PRV754,CDC_HbA1c_Testing,Compliant,,,,,2024
+MBR18855,18-34,F,PPO_Premium,East LA,PRV204,PDC_Medication_Adherence,Compliant,,,,,2024
+MBR54279,65-74,F,Medi-Cal,Westside,PRV674,CDC_Eye_Exam,Compliant,,,,,2024
+MBR70415,65-74,F,HMO_Silver,South Bay,PRV125,PDC_Medication_Adherence,Non-Compliant,2024-07-28,1,0,,2024
+MBR54433,75+,M,PPO_Premium,South Bay,PRV338,CDC_HbA1c_Testing,Non-Compliant,2024-12-28,1,0,,2024
+MBR50481,75+,M,Medi-Cal,San Fernando Valley,PRV328,PDC_Medication_Adherence,Compliant,,,,,2024
+MBR16930,75+,M,PPO_Premium,East LA,PRV754,CDC_HbA1c_Testing,Non-Compliant,2024-09-29,1,1,2024-10-25,2024
+MBR42150,75+,F,HMO_Gold,East LA,PRV323,BCS_Mammogram,Compliant,,,,,2024
+MBR15896,65-74,M,PPO_Standard,Downtown LA,PRV350,CBP_BP_Control,Compliant,,,,,2024
+MBR79193,50-64,F,PPO_Standard,San Fernando Valley,PRV859,CDC_HbA1c_Testing,Compliant,,,,,2024
+MBR47401,35-49,M,PPO_Standard,San Fernando Valley,PRV381,BCS_Mammogram,Excluded,,,,,2024
+MBR98946,35-49,M,Medi-Cal,South Bay,PRV350,CDC_HbA1c_Testing,Non-Compliant,2024-06-01,1,1,2024-09-14,2024
+MBR52495,50-64,F,HMO_Gold,San Fernando Valley,PRV328,CDC_Eye_Exam,Non-Compliant,2024-10-27,1,0,,2024
+MBR76115,65-74,M,PPO_Standard,San Fernando Valley,PRV792,CBP_BP_Control,Compliant,,,,,2024
+MBR18579,65-74,M,PPO_Premium,Westside,PRV754,BCS_Mammogram,Compliant,,,,,2024
+MBR86830,18-34,M,Medi-Cal,Westside,PRV204,PDC_Medication_Adherence,Compliant,,,,,2024
+MBR20998,75+,M,HMO_Silver,South Bay,PRV130,CDC_Eye_Exam,Non-Compliant,2024-10-02,0,0,,2024
+MBR82764,65-74,M,HMO_Gold,Downtown LA,PRV323,BCS_Mammogram,Non-Compliant,2024-03-26,1,0,,2024
+MBR73201,50-64,F,PPO_Premium,South Bay,PRV338,CDC_Eye_Exam,Compliant,,,,,2024
+MBR76889,50-64,M,HMO_Silver,East LA,PRV195,CDC_HbA1c_Testing,Compliant,,,,,2024
+MBR61813,18-34,M,Medi-Cal,South Bay,PRV189,CDC_Eye_Exam,Compliant,,,,,2024
+MBR51720,50-64,F,PPO_Premium,South Bay,PRV242,BCS_Mammogram,Compliant,,,,,2024
+MBR70266,75+,F,HMO_Gold,Westside,PRV338,CDC_HbA1c_Testing,Compliant,,,,,2024
+MBR10560,18-34,M,PPO_Premium,East LA,PRV716,CBP_BP_Control,Non-Compliant,2024-10-02,1,0,,2024
+MBR95362,18-34,M,PPO_Premium,San Fernando Valley,PRV858,CBP_BP_Control,Non-Compliant,2024-07-02,1,0,,2024
+MBR11105,18-34,F,PPO_Standard,Westside,PRV704,CDC_HbA1c_Testing,Compliant,,,,,2024
+MBR12592,50-64,F,HMO_Silver,San Fernando Valley,PRV323,BCS_Mammogram,Non-Compliant,2024-04-23,1,0,,2024
+MBR57579,18-34,F,PPO_Premium,East LA,PRV328,CDC_HbA1c_Testing,Compliant,,,,,2024
+MBR93681,65-74,M,PPO_Standard,East LA,PRV132,CBP_BP_Control,Compliant,,,,,2024
+MBR35397,75+,M,HMO_Gold,East LA,PRV381,CDC_HbA1c_Testing,Compliant,,,,,2024
+MBR84698,35-49,F,HMO_Silver,San Fernando Valley,PRV716,PDC_Medication_Adherence,Compliant,,,,,2024
+MBR99218,75+,F,HMO_Gold,Downtown LA,PRV338,CDC_HbA1c_Testing,Non-Compliant,2024-06-14,1,0,,2024
+MBR45918,18-34,F,PPO_Premium,South Bay,PRV132,CDC_HbA1c_Testing,Non-Compliant,2024-04-24,1,0,,2024
+MBR79784,65-74,F,HMO_Gold,Downtown LA,PRV328,BCS_Mammogram,Compliant,,,,,2024
+MBR84949,18-34,M,PPO_Premium,San Fernando Valley,PRV242,CDC_Eye_Exam,Compliant,,,,,2024
+MBR50737,18-34,M,HMO_Gold,Downtown LA,PRV189,CDC_HbA1c_Testing,Compliant,,,,,2024
+MBR92090,50-64,F,HMO_Silver,San Fernando Valley,PRV532,CDC_Eye_Exam,Excluded,,,,,2024
+MBR17134,50-64,M,HMO_Gold,East LA,PRV323,CBP_BP_Control,Non-Compliant,2024-11-16,1,1,2024-11-19,2024
+MBR14370,65-74,F,HMO_Gold,Westside,PRV214,CBP_BP_Control,Compliant,,,,,2024
+MBR90050,65-74,M,HMO_Gold,San Fernando Valley,PRV130,CDC_HbA1c_Testing,Compliant,,,,,2024
+MBR59998,65-74,M,Medi-Cal,Downtown LA,PRV242,PDC_Medication_Adherence,Non-Compliant,2024-11-15,1,1,2024-12-12,2024
+MBR91292,75+,M,PPO_Standard,San Fernando Valley,PRV704,PDC_Medication_Adherence,Compliant,,,,,2024
+MBR35228,18-34,M,HMO_Gold,East LA,PRV716,CDC_HbA1c_Testing,Compliant,,,,,2024
+MBR35377,75+,M,Medi-Cal,South Bay,PRV858,CBP_BP_Control,Compliant,,,,,2024
+MBR91376,65-74,M,HMO_Silver,Westside,PRV214,CDC_HbA1c_Testing,Compliant,,,,,2024
+MBR86614,65-74,F,PPO_Standard,East LA,PRV130,CDC_Eye_Exam,Compliant,,,,,2024
+MBR50458,75+,F,PPO_Standard,South Bay,PRV754,PDC_Medication_Adherence,Compliant,,,,,2024
+MBR98906,35-49,M,HMO_Silver,East LA,PRV130,CDC_HbA1c_Testing,Compliant,,,,,2024
+MBR35612,35-49,M,HMO_Gold,South Bay,PRV328,CBP_BP_Control,Non-Compliant,2024-08-27,1,1,2024-11-09,2024
+MBR84199,50-64,F,PPO_Premium,South Bay,PRV350,CDC_HbA1c_Testing,Compliant,,,,,2024
+MBR15530,65-74,M,HMO_Gold,Westside,PRV716,CDC_Eye_Exam,Compliant,,,,,2024
+MBR37936,35-49,F,PPO_Standard,Downtown LA,PRV328,CBP_BP_Control,Compliant,,,,,2024
+MBR10881,50-64,M,HMO_Gold,South Bay,PRV754,PDC_Medication_Adherence,Compliant,,,,,2024
+MBR48086,65-74,M,Medi-Cal,South Bay,PRV214,CDC_HbA1c_Testing,Compliant,,,,,2024
+MBR47237,35-49,M,PPO_Standard,Westside,PRV792,PDC_Medication_Adherence,Compliant,,,,,2024
+MBR35688,18-34,M,PPO_Standard,San Fernando Valley,PRV754,CDC_Eye_Exam,Compliant,,,,,2024
+MBR24544,50-64,M,PPO_Standard,Downtown LA,PRV242,BCS_Mammogram,Non-Compliant,2024-12-04,1,0,,2024
+MBR91684,65-74,M,HMO_Gold,Westside,PRV381,CDC_Eye_Exam,Compliant,,,,,2024
+MBR59570,50-64,F,Medi-Cal,Downtown LA,PRV338,CDC_Eye_Exam,Non-Compliant,2024-11-11,1,0,,2024
+MBR48559,35-49,F,HMO_Silver,San Fernando Valley,PRV338,BCS_Mammogram,Non-Compliant,2024-09-17,0,0,,2024
+MBR37425,18-34,F,Medi-Cal,San Fernando Valley,PRV350,PDC_Medication_Adherence,Compliant,,,,,2024
+MBR94550,75+,F,PPO_Premium,East LA,PRV704,CDC_Eye_Exam,Compliant,,,,,2024
+MBR59005,75+,F,PPO_Premium,Downtown LA,PRV854,PDC_Medication_Adherence,Compliant,,,,,2024
+MBR86543,18-34,M,HMO_Silver,Westside,PRV704,CDC_Eye_Exam,Compliant,,,,,2024
+MBR50107,65-74,F,Medi-Cal,Westside,PRV858,BCS_Mammogram,Compliant,,,,,2024
+MBR27606,18-34,F,PPO_Premium,East LA,PRV858,CDC_Eye_Exam,Compliant,,,,,2024
+MBR70981,75+,F,PPO_Premium,Downtown LA,PRV704,CBP_BP_Control,Compliant,,,,,2024
+MBR75213,50-64,F,PPO_Premium,San Fernando Valley,PRV350,CBP_BP_Control,Compliant,,,,,2024
+MBR94587,18-34,F,HMO_Gold,South Bay,PRV132,PDC_Medication_Adherence,Compliant,,,,,2024
+MBR20244,50-64,M,HMO_Gold,San Fernando Valley,PRV125,BCS_Mammogram,Compliant,,,,,2024
+MBR36254,50-64,M,PPO_Standard,South Bay,PRV204,BCS_Mammogram,Compliant,,,,,2024
+MBR89171,35-49,F,HMO_Gold,South Bay,PRV204,BCS_Mammogram,Non-Compliant,2024-07-25,0,0,,2024
+MBR95892,18-34,F,Medi-Cal,Westside,PRV658,CDC_Eye_Exam,Compliant,,,,,2024
+MBR37508,65-74,M,Medi-Cal,East LA,PRV130,CBP_BP_Control,Non-Compliant,2024-08-24,1,1,2024-10-11,2024
+MBR66202,65-74,M,PPO_Premium,Downtown LA,PRV130,CDC_HbA1c_Testing,Compliant,,,,,2024
+MBR85695,35-49,F,HMO_Gold,Downtown LA,PRV617,BCS_Mammogram,Compliant,,,,,2024
+MBR64938,65-74,F,Medi-Cal,South Bay,PRV792,PDC_Medication_Adherence,Compliant,,,,,2024
+MBR14221,35-49,M,PPO_Standard,East LA,PRV338,PDC_Medication_Adherence,Non-Compliant,2024-10-20,0,0,,2024
+MBR36765,65-74,M,Medi-Cal,Downtown LA,PRV328,CBP_BP_Control,Compliant,,,,,2024
+MBR84647,65-74,F,HMO_Gold,Westside,PRV859,PDC_Medication_Adherence,Compliant,,,,,2024
+MBR89084,65-74,M,HMO_Silver,Westside,PRV125,CBP_BP_Control,Compliant,,,,,2024
+MBR40544,50-64,M,PPO_Premium,San Fernando Valley,PRV858,PDC_Medication_Adherence,Compliant,,,,,2024
+MBR52830,65-74,F,HMO_Silver,San Fernando Valley,PRV381,PDC_Medication_Adherence,Compliant,,,,,2024
+MBR19012,65-74,M,HMO_Silver,Westside,PRV204,CBP_BP_Control,Non-Compliant,2024-12-06,1,0,,2024
+MBR50673,75+,M,Medi-Cal,Downtown LA,PRV854,CDC_Eye_Exam,Compliant,,,,,2024
+MBR28702,65-74,M,PPO_Premium,East LA,PRV242,PDC_Medication_Adherence,Compliant,,,,,2024
+MBR84609,65-74,F,PPO_Premium,East LA,PRV214,CDC_HbA1c_Testing,Compliant,,,,,2024
+MBR69809,50-64,F,PPO_Premium,East LA,PRV350,CBP_BP_Control,Compliant,,,,,2024
+MBR90967,65-74,F,PPO_Premium,Westside,PRV716,PDC_Medication_Adherence,Compliant,,,,,2024
+MBR15723,35-49,M,PPO_Standard,East LA,PRV204,CDC_HbA1c_Testing,Non-Compliant,2024-04-21,0,0,,2024
+MBR82459,18-34,F,HMO_Gold,San Fernando Valley,PRV132,BCS_Mammogram,Compliant,,,,,2024
+MBR31605,50-64,M,Medi-Cal,San Fernando Valley,PRV704,CDC_HbA1c_Testing,Compliant,,,,,2024
+MBR98555,65-74,F,PPO_Standard,Downtown LA,PRV328,CBP_BP_Control,Compliant,,,,,2024
+MBR42847,18-34,M,PPO_Standard,Downtown LA,PRV532,CBP_BP_Control,Compliant,,,,,2024
+MBR81883,35-49,F,HMO_Silver,Downtown LA,PRV854,CDC_Eye_Exam,Compliant,,,,,2024
+MBR12367,75+,M,HMO_Silver,South Bay,PRV859,PDC_Medication_Adherence,Non-Compliant,2024-03-27,1,0,,2024
+MBR98785,50-64,M,PPO_Premium,South Bay,PRV350,CDC_Eye_Exam,Non-Compliant,2024-12-11,1,0,,2024
+MBR16259,75+,M,PPO_Premium,South Bay,PRV704,CDC_HbA1c_Testing,Compliant,,,,,2024
+MBR16378,65-74,M,HMO_Silver,South Bay,PRV242,CDC_Eye_Exam,Compliant,,,,,2024
+MBR65270,18-34,M,PPO_Standard,Westside,PRV617,CDC_HbA1c_Testing,Compliant,,,,,2024
+MBR22661,35-49,M,HMO_Gold,Downtown LA,PRV132,CDC_HbA1c_Testing,Non-Compliant,2024-06-14,1,1,2024-08-06,2024
+MBR81002,65-74,F,HMO_Gold,Westside,PRV328,CDC_HbA1c_Testing,Compliant,,,,,2024
+MBR32756,18-34,F,PPO_Standard,San Fernando Valley,PRV658,CDC_Eye_Exam,Compliant,,,,,2024
+MBR18652,50-64,F,HMO_Gold,San Fernando Valley,PRV328,CBP_BP_Control,Compliant,,,,,2024
+MBR88494,65-74,M,Medi-Cal,East LA,PRV350,BCS_Mammogram,Excluded,,,,,2024
+MBR88625,50-64,F,HMO_Silver,South Bay,PRV350,BCS_Mammogram,Excluded,,,,,2024
+MBR97342,65-74,M,PPO_Standard,San Fernando Valley,PRV323,PDC_Medication_Adherence,Compliant,,,,,2024
+MBR76981,35-49,M,HMO_Silver,San Fernando Valley,PRV323,CDC_HbA1c_Testing,Compliant,,,,,2024
+MBR66164,35-49,M,HMO_Gold,Westside,PRV858,CBP_BP_Control,Compliant,,,,,2024
+MBR29879,65-74,M,HMO_Gold,Westside,PRV127,PDC_Medication_Adherence,Excluded,,,,,2024
+MBR68160,50-64,M,PPO_Standard,South Bay,PRV338,CDC_HbA1c_Testing,Compliant,,,,,2024
+MBR64380,50-64,M,HMO_Silver,South Bay,PRV792,CDC_Eye_Exam,Compliant,,,,,2024
+MBR17087,35-49,M,Medi-Cal,Downtown LA,PRV132,BCS_Mammogram,Compliant,,,,,2024
+MBR92546,18-34,M,PPO_Premium,San Fernando Valley,PRV328,CDC_HbA1c_Testing,Compliant,,,,,2024
+MBR28550,35-49,M,HMO_Gold,Westside,PRV195,PDC_Medication_Adherence,Non-Compliant,2024-04-14,1,1,2024-12-09,2024
+MBR50824,35-49,M,HMO_Silver,Downtown LA,PRV350,PDC_Medication_Adherence,Compliant,,,,,2024
+MBR47401,75+,F,HMO_Silver,South Bay,PRV532,CDC_HbA1c_Testing,Excluded,,,,,2024
+MBR57131,65-74,F,HMO_Silver,Downtown LA,PRV704,CBP_BP_Control,Compliant,,,,,2024
+MBR66810,35-49,F,HMO_Gold,Downtown LA,PRV189,CDC_HbA1c_Testing,Non-Compliant,2024-06-02,1,1,2024-12-05,2024
+MBR33029,50-64,F,PPO_Premium,South Bay,PRV704,BCS_Mammogram,Compliant,,,,,2024
+MBR89432,65-74,M,PPO_Standard,Westside,PRV716,CBP_BP_Control,Compliant,,,,,2024
+MBR34854,18-34,M,Medi-Cal,South Bay,PRV532,CBP_BP_Control,Non-Compliant,2024-07-21,0,1,2024-11-23,2024
+MBR50345,75+,M,PPO_Premium,San Fernando Valley,PRV859,CBP_BP_Control,Non-Compliant,2024-03-24,1,0,,2024
+MBR43457,50-64,F,PPO_Standard,San Fernando Valley,PRV338,CBP_BP_Control,Non-Compliant,2024-05-06,1,1,2024-11-30,2024
+MBR57371,18-34,M,PPO_Standard,East LA,PRV704,CDC_Eye_Exam,Compliant,,,,,2024
+MBR88924,75+,M,HMO_Gold,San Fernando Valley,PRV674,CDC_HbA1c_Testing,Compliant,,,,,2024
+MBR60377,65-74,M,Medi-Cal,Westside,PRV189,CDC_Eye_Exam,Non-Compliant,2024-05-09,1,0,,2024
+MBR79887,65-74,F,PPO_Premium,San Fernando Valley,PRV859,PDC_Medication_Adherence,Non-Compliant,2024-06-25,0,1,2024-08-17,2024
+MBR62162,50-64,M,HMO_Silver,Downtown LA,PRV754,CDC_HbA1c_Testing,Compliant,,,,,2024
+MBR64767,75+,F,PPO_Standard,Downtown LA,PRV350,CDC_Eye_Exam,Compliant,,,,,2024
+MBR27607,35-49,F,HMO_Silver,East LA,PRV859,CBP_BP_Control,Compliant,,,,,2024
+MBR37862,35-49,M,HMO_Gold,Westside,PRV674,CDC_Eye_Exam,Compliant,,,,,2024
+MBR63581,65-74,M,HMO_Silver,San Fernando Valley,PRV204,CDC_HbA1c_Testing,Compliant,,,,,2024
+MBR46275,18-34,F,HMO_Gold,East LA,PRV242,CBP_BP_Control,Compliant,,,,,2024
+MBR23213,18-34,M,PPO_Standard,San Fernando Valley,PRV617,PDC_Medication_Adherence,Non-Compliant,2024-01-22,1,0,,2024
+MBR10951,65-74,F,PPO_Premium,Downtown LA,PRV674,BCS_Mammogram,Compliant,,,,,2024
+MBR54112,50-64,F,PPO_Standard,Westside,PRV858,CBP_BP_Control,Compliant,,,,,2024
+MBR17502,50-64,F,HMO_Gold,San Fernando Valley,PRV704,CBP_BP_Control,Non-Compliant,2024-03-12,1,1,2024-12-08,2024
+MBR46630,35-49,F,PPO_Premium,East LA,PRV617,CBP_BP_Control,Compliant,,,,,2024
+MBR96537,35-49,M,PPO_Standard,San Fernando Valley,PRV338,BCS_Mammogram,Non-Compliant,2024-06-15,1,1,2024-10-17,2024
+MBR62450,75+,M,PPO_Standard,Downtown LA,PRV532,CDC_HbA1c_Testing,Non-Compliant,2024-05-30,1,0,,2024
+MBR78164,75+,M,HMO_Silver,Downtown LA,PRV125,BCS_Mammogram,Non-Compliant,2024-10-07,0,0,,2024
+MBR68495,18-34,F,Medi-Cal,Westside,PRV242,CDC_Eye_Exam,Compliant,,,,,2024
+MBR96474,18-34,M,PPO_Premium,San Fernando Valley,PRV350,BCS_Mammogram,Non-Compliant,2024-05-23,1,1,2024-09-21,2024
+MBR97897,18-34,M,Medi-Cal,Downtown LA,PRV125,BCS_Mammogram,Non-Compliant,2024-10-21,0,0,,2024
+MBR94408,50-64,F,PPO_Premium,East LA,PRV189,CDC_Eye_Exam,Compliant,,,,,2024
+MBR25163,50-64,M,HMO_Gold,San Fernando Valley,PRV792,PDC_Medication_Adherence,Non-Compliant,2024-02-29,1,1,2024-08-07,2024
+MBR59832,75+,M,PPO_Standard,San Fernando Valley,PRV195,PDC_Medication_Adherence,Compliant,,,,,2024
+MBR60875,65-74,F,PPO_Standard,Westside,PRV132,PDC_Medication_Adherence,Compliant,,,,,2024
+MBR23970,65-74,M,Medi-Cal,Downtown LA,PRV792,CDC_Eye_Exam,Non-Compliant,2024-05-31,0,0,,2024
+MBR69740,35-49,F,HMO_Silver,San Fernando Valley,PRV323,BCS_Mammogram,Compliant,,,,,2024
+MBR26182,50-64,F,HMO_Silver,Downtown LA,PRV204,CBP_BP_Control,Compliant,,,,,2024
+MBR53665,35-49,M,HMO_Silver,San Fernando Valley,PRV674,CDC_Eye_Exam,Non-Compliant,2024-07-19,1,0,,2024
+MBR30865,18-34,F,PPO_Standard,Downtown LA,PRV617,CBP_BP_Control,Excluded,,,,,2024
+MBR61296,65-74,M,Medi-Cal,South Bay,PRV204,CDC_Eye_Exam,Non-Compliant,2024-10-07,1,1,2024-12-20,2024
+MBR17094,50-64,F,HMO_Silver,East LA,PRV381,CBP_BP_Control,Non-Compliant,2024-05-29,0,1,2024-12-20,2024
+MBR35644,18-34,F,Medi-Cal,San Fernando Valley,PRV617,CDC_Eye_Exam,Compliant,,,,,2024
+MBR65982,35-49,M,HMO_Gold,South Bay,PRV532,CDC_Eye_Exam,Non-Compliant,2024-03-01,0,0,,2024
+MBR87777,65-74,M,PPO_Premium,Westside,PRV214,CDC_HbA1c_Testing,Compliant,,,,,2024
+MBR74045,50-64,M,PPO_Premium,San Fernando Valley,PRV674,CBP_BP_Control,Non-Compliant,2024-11-28,1,0,,2024
+MBR68342,50-64,M,HMO_Gold,San Fernando Valley,PRV125,CDC_HbA1c_Testing,Compliant,,,,,2024
+MBR97659,75+,M,HMO_Gold,East LA,PRV195,PDC_Medication_Adherence,Compliant,,,,,2024
+MBR22393,75+,M,PPO_Premium,Downtown LA,PRV338,CBP_BP_Control,Compliant,,,,,2024
+MBR26414,18-34,F,HMO_Gold,East LA,PRV350,CBP_BP_Control,Non-Compliant,2024-01-11,1,0,,2024
+MBR79479,65-74,M,Medi-Cal,East LA,PRV130,CDC_HbA1c_Testing,Non-Compliant,2024-04-16,0,0,,2024
+MBR33680,75+,M,HMO_Gold,East LA,PRV704,BCS_Mammogram,Compliant,,,,,2024
+MBR26884,75+,M,HMO_Silver,San Fernando Valley,PRV130,BCS_Mammogram,Non-Compliant,2024-01-18,1,1,2024-06-18,2024
+MBR57652,75+,M,PPO_Premium,San Fernando Valley,PRV242,BCS_Mammogram,Compliant,,,,,2024
+MBR78084,50-64,F,HMO_Silver,East LA,PRV532,BCS_Mammogram,Compliant,,,,,2024
+MBR56152,75+,M,HMO_Gold,San Fernando Valley,PRV242,CDC_HbA1c_Testing,Compliant,,,,,2024
+MBR49283,35-49,M,Medi-Cal,East LA,PRV328,PDC_Medication_Adherence,Compliant,,,,,2024
+MBR26841,75+,F,HMO_Gold,East LA,PRV854,BCS_Mammogram,Compliant,,,,,2024
+MBR31406,65-74,F,HMO_Gold,South Bay,PRV617,CBP_BP_Control,Non-Compliant,2024-03-14,1,1,2024-07-29,2024
+MBR92984,35-49,F,Medi-Cal,East LA,PRV323,CDC_Eye_Exam,Compliant,,,,,2024
+MBR30118,50-64,F,PPO_Premium,San Fernando Valley,PRV323,CDC_Eye_Exam,Compliant,,,,,2024
+MBR26334,75+,M,Medi-Cal,Downtown LA,PRV125,BCS_Mammogram,Compliant,,,,,2024
+MBR57555,50-64,F,HMO_Silver,Westside,PRV854,CDC_HbA1c_Testing,Compliant,,,,,2024
+MBR39127,65-74,M,HMO_Gold,Westside,PRV132,BCS_Mammogram,Compliant,,,,,2024
+MBR74175,18-34,F,Medi-Cal,South Bay,PRV130,BCS_Mammogram,Compliant,,,,,2024
+MBR16286,35-49,F,PPO_Premium,Westside,PRV858,PDC_Medication_Adherence,Compliant,,,,,2024
+MBR62776,65-74,M,PPO_Standard,San Fernando Valley,PRV617,PDC_Medication_Adherence,Non-Compliant,2024-12-02,1,1,2024-12-25,2024
+MBR45044,18-34,F,HMO_Silver,East LA,PRV189,CBP_BP_Control,Compliant,,,,,2024
+MBR56399,65-74,F,PPO_Standard,Downtown LA,PRV132,CDC_Eye_Exam,Compliant,,,,,2024
+MBR21395,50-64,F,PPO_Standard,San Fernando Valley,PRV338,CDC_HbA1c_Testing,Compliant,,,,,2024
+MBR41462,18-34,M,Medi-Cal,San Fernando Valley,PRV125,BCS_Mammogram,Compliant,,,,,2024
+MBR74598,18-34,F,Medi-Cal,Westside,PRV532,CBP_BP_Control,Compliant,,,,,2024
+MBR98706,75+,M,PPO_Premium,San Fernando Valley,PRV323,CDC_Eye_Exam,Non-Compliant,2024-01-04,0,0,,2024
+MBR55227,35-49,M,Medi-Cal,Downtown LA,PRV350,PDC_Medication_Adherence,Non-Compliant,2024-03-30,1,0,,2024
+MBR77329,50-64,M,PPO_Premium,Downtown LA,PRV658,CDC_Eye_Exam,Compliant,,,,,2024
+MBR24841,50-64,M,Medi-Cal,San Fernando Valley,PRV204,BCS_Mammogram,Compliant,,,,,2024
+MBR44701,35-49,M,Medi-Cal,Downtown LA,PRV328,BCS_Mammogram,Non-Compliant,2024-11-25,1,0,,2024
+MBR70693,75+,F,HMO_Gold,South Bay,PRV754,PDC_Medication_Adherence,Compliant,,,,,2024
+MBR49105,50-64,M,HMO_Gold,South Bay,PRV127,CDC_Eye_Exam,Compliant,,,,,2024
+MBR11161,18-34,F,PPO_Premium,Westside,PRV125,PDC_Medication_Adherence,Compliant,,,,,2024
+MBR30147,65-74,M,PPO_Premium,San Fernando Valley,PRV381,BCS_Mammogram,Compliant,,,,,2024
+MBR61820,50-64,F,PPO_Standard,Downtown LA,PRV350,PDC_Medication_Adherence,Non-Compliant,2024-02-25,0,0,,2024
+MBR67587,35-49,M,PPO_Standard,Downtown LA,PRV754,BCS_Mammogram,Non-Compliant,2024-12-29,1,1,2024-12-29,2024
+MBR27521,65-74,F,PPO_Standard,San Fernando Valley,PRV350,CDC_Eye_Exam,Non-Compliant,2024-12-06,0,1,2024-12-21,2024
+MBR82105,65-74,M,PPO_Standard,Downtown LA,PRV132,CBP_BP_Control,Compliant,,,,,2024
+MBR24139,18-34,M,HMO_Silver,South Bay,PRV132,CDC_HbA1c_Testing,Non-Compliant,2024-05-01,1,0,,2024
+MBR66317,75+,M,PPO_Premium,Downtown LA,PRV204,BCS_Mammogram,Compliant,,,,,2024
+MBR66223,35-49,M,Medi-Cal,Westside,PRV242,BCS_Mammogram,Non-Compliant,2024-05-14,0,1,2024-12-10,2024
+MBR66250,35-49,F,HMO_Gold,East LA,PRV323,CDC_Eye_Exam,Compliant,,,,,2024
+MBR87489,35-49,M,HMO_Gold,Westside,PRV658,CDC_HbA1c_Testing,Compliant,,,,,2024
+MBR35189,35-49,F,HMO_Gold,East LA,PRV328,CDC_HbA1c_Testing,Non-Compliant,2024-07-13,1,1,2024-12-22,2024
+MBR40333,35-49,F,PPO_Premium,Downtown LA,PRV214,PDC_Medication_Adherence,Compliant,,,,,2024
+MBR16770,50-64,M,PPO_Standard,South Bay,PRV854,BCS_Mammogram,Non-Compliant,2024-05-06,1,1,2024-05-16,2024
+MBR10070,18-34,F,HMO_Silver,South Bay,PRV532,BCS_Mammogram,Non-Compliant,2024-02-21,1,1,2024-10-29,2024
+MBR57655,50-64,F,HMO_Gold,San Fernando Valley,PRV617,CDC_HbA1c_Testing,Non-Compliant,2024-03-07,1,0,,2024
+MBR57367,75+,F,HMO_Silver,South Bay,PRV328,PDC_Medication_Adherence,Compliant,,,,,2024
+MBR23941,35-49,M,HMO_Gold,East LA,PRV338,CDC_Eye_Exam,Compliant,,,,,2024
+MBR68427,18-34,M,Medi-Cal,East LA,PRV792,BCS_Mammogram,Non-Compliant,2024-04-13,1,1,2024-06-17,2024
+MBR35127,65-74,F,Medi-Cal,South Bay,PRV858,CBP_BP_Control,Compliant,,,,,2024
+MBR25391,65-74,M,PPO_Premium,Downtown LA,PRV132,PDC_Medication_Adherence,Non-Compliant,2024-03-26,1,0,,2024
+MBR26899,50-64,M,Medi-Cal,San Fernando Valley,PRV716,CDC_Eye_Exam,Non-Compliant,2024-07-22,1,0,,2024
+MBR77303,18-34,M,PPO_Premium,East LA,PRV658,PDC_Medication_Adherence,Non-Compliant,2024-07-24,1,1,2024-07-24,2024
+MBR30971,75+,M,Medi-Cal,San Fernando Valley,PRV132,CBP_BP_Control,Compliant,,,,,2024
+MBR78822,50-64,F,HMO_Silver,South Bay,PRV716,BCS_Mammogram,Compliant,,,,,2024
+MBR32427,35-49,M,Medi-Cal,Westside,PRV204,CDC_HbA1c_Testing,Compliant,,,,,2024
+MBR46406,35-49,F,HMO_Gold,Westside,PRV328,PDC_Medication_Adherence,Compliant,,,,,2024
+MBR95019,50-64,F,PPO_Standard,San Fernando Valley,PRV716,PDC_Medication_Adherence,Compliant,,,,,2024
+MBR27512,65-74,F,PPO_Standard,San Fernando Valley,PRV338,CDC_HbA1c_Testing,Non-Compliant,2024-04-22,0,1,2024-06-26,2024
+MBR12049,75+,M,PPO_Premium,South Bay,PRV338,PDC_Medication_Adherence,Compliant,,,,,2024
+MBR67958,35-49,F,PPO_Standard,Westside,PRV195,CBP_BP_Control,Compliant,,,,,2024
+MBR40372,65-74,F,HMO_Silver,Downtown LA,PRV125,CBP_BP_Control,Compliant,,,,,2024
+MBR34251,35-49,M,Medi-Cal,Downtown LA,PRV127,CDC_Eye_Exam,Compliant,,,,,2024
+MBR12758,50-64,M,HMO_Silver,Downtown LA,PRV617,PDC_Medication_Adherence,Compliant,,,,,2024
+MBR28811,18-34,F,HMO_Silver,Downtown LA,PRV338,CBP_BP_Control,Compliant,,,,,2024
+MBR79045,35-49,M,Medi-Cal,San Fernando Valley,PRV658,CBP_BP_Control,Compliant,,,,,2024
+MBR11776,18-34,M,HMO_Silver,San Fernando Valley,PRV854,CDC_Eye_Exam,Non-Compliant,2024-11-03,1,0,,2024
+MBR23938,75+,F,HMO_Gold,Westside,PRV381,CBP_BP_Control,Non-Compliant,2024-08-15,0,1,2024-12-15,2024
+MBR30252,35-49,M,Medi-Cal,South Bay,PRV338,PDC_Medication_Adherence,Compliant,,,,,2024
+MBR15836,18-34,F,HMO_Gold,East LA,PRV189,CDC_Eye_Exam,Compliant,,,,,2024
+MBR39401,18-34,M,PPO_Premium,Downtown LA,PRV381,BCS_Mammogram,Non-Compliant,2024-04-25,0,0,,2024
+MBR24733,65-74,M,HMO_Gold,Westside,PRV859,BCS_Mammogram,Compliant,,,,,2024
+MBR90700,50-64,M,PPO_Standard,San Fernando Valley,PRV214,PDC_Medication_Adherence,Compliant,,,,,2024
+MBR66181,75+,F,Medi-Cal,Westside,PRV617,CBP_BP_Control,Compliant,,,,,2024
+MBR97460,50-64,F,PPO_Standard,San Fernando Valley,PRV854,CBP_BP_Control,Non-Compliant,2024-05-15,0,0,,2024
+MBR20009,18-34,M,HMO_Silver,South Bay,PRV381,CBP_BP_Control,Compliant,,,,,2024
+MBR72709,18-34,M,Medi-Cal,Downtown LA,PRV127,BCS_Mammogram,Compliant,,,,,2024
+MBR52343,35-49,M,PPO_Premium,South Bay,PRV792,CBP_BP_Control,Compliant,,,,,2024
+MBR64256,75+,F,HMO_Silver,Westside,PRV658,CBP_BP_Control,Compliant,,,,,2024
+MBR80614,75+,F,Medi-Cal,East LA,PRV242,CBP_BP_Control,Compliant,,,,,2024
+MBR65291,75+,M,HMO_Gold,Westside,PRV858,CDC_HbA1c_Testing,Compliant,,,,,2024
+MBR12248,50-64,F,HMO_Silver,San Fernando Valley,PRV214,BCS_Mammogram,Compliant,,,,,2024
+MBR28264,50-64,F,HMO_Silver,East LA,PRV189,CDC_Eye_Exam,Compliant,,,,,2024
+MBR39437,18-34,M,HMO_Gold,Westside,PRV658,CDC_HbA1c_Testing,Non-Compliant,2024-08-05,1,0,,2024
+MBR96867,75+,M,PPO_Premium,East LA,PRV350,CDC_HbA1c_Testing,Compliant,,,,,2024
+MBR28517,18-34,M,HMO_Gold,San Fernando Valley,PRV195,CBP_BP_Control,Compliant,,,,,2024
+MBR33910,65-74,M,Medi-Cal,South Bay,PRV532,CBP_BP_Control,Non-Compliant,2024-08-15,0,0,,2024
+MBR47587,18-34,M,HMO_Gold,San Fernando Valley,PRV323,CDC_Eye_Exam,Compliant,,,,,2024
+MBR11424,65-74,F,PPO_Premium,East LA,PRV716,BCS_Mammogram,Non-Compliant,2024-09-13,1,1,2024-10-03,2024
+MBR45628,18-34,F,HMO_Silver,Westside,PRV658,PDC_Medication_Adherence,Compliant,,,,,2024
+MBR61418,35-49,M,PPO_Premium,Downtown LA,PRV792,CBP_BP_Control,Non-Compliant,2024-03-25,1,1,2024-10-28,2024
+MBR35523,50-64,M,HMO_Gold,San Fernando Valley,PRV858,PDC_Medication_Adherence,Non-Compliant,2024-06-20,1,1,2024-11-05,2024
+MBR23954,18-34,M,Medi-Cal,San Fernando Valley,PRV674,BCS_Mammogram,Compliant,,,,,2024
+MBR36440,18-34,M,PPO_Standard,San Fernando Valley,PRV195,PDC_Medication_Adherence,Compliant,,,,,2024
+MBR73413,18-34,M,PPO_Standard,San Fernando Valley,PRV204,CDC_HbA1c_Testing,Excluded,,,,,2024
+MBR47015,65-74,M,PPO_Standard,Downtown LA,PRV127,BCS_Mammogram,Excluded,,,,,2024
+MBR98432,18-34,F,PPO_Premium,East LA,PRV859,PDC_Medication_Adherence,Non-Compliant,2024-03-17,1,0,,2024
+MBR72515,75+,M,PPO_Standard,Westside,PRV381,CBP_BP_Control,Compliant,,,,,2024
+MBR92044,18-34,M,HMO_Silver,Westside,PRV674,CDC_Eye_Exam,Excluded,,,,,2024
+MBR75748,75+,F,PPO_Premium,Westside,PRV792,BCS_Mammogram,Compliant,,,,,2024
+MBR66479,18-34,F,HMO_Silver,Westside,PRV323,PDC_Medication_Adherence,Compliant,,,,,2024
+MBR29975,75+,F,HMO_Gold,San Fernando Valley,PRV381,BCS_Mammogram,Compliant,,,,,2024
+MBR21425,65-74,M,PPO_Premium,South Bay,PRV350,BCS_Mammogram,Compliant,,,,,2024
+MBR46715,75+,F,PPO_Standard,San Fernando Valley,PRV125,CDC_Eye_Exam,Non-Compliant,2024-08-23,1,0,,2024
+MBR43557,65-74,M,HMO_Gold,East LA,PRV532,CDC_HbA1c_Testing,Compliant,,,,,2024
+MBR47568,65-74,F,Medi-Cal,Westside,PRV704,BCS_Mammogram,Compliant,,,,,2024
+MBR91871,50-64,F,HMO_Gold,Downtown LA,PRV132,CBP_BP_Control,Compliant,,,,,2024
+MBR99463,18-34,M,HMO_Silver,East LA,PRV754,CDC_Eye_Exam,Non-Compliant,2024-05-28,1,0,,2024
+MBR19565,35-49,F,PPO_Premium,San Fernando Valley,PRV858,CBP_BP_Control,Compliant,,,,,2024
+MBR80138,65-74,M,HMO_Gold,Westside,PRV127,CDC_HbA1c_Testing,Non-Compliant,2024-07-22,0,1,2024-10-14,2024
+MBR18450,50-64,F,Medi-Cal,Downtown LA,PRV328,CBP_BP_Control,Compliant,,,,,2024
+MBR69582,18-34,M,PPO_Premium,Westside,PRV338,CDC_Eye_Exam,Compliant,,,,,2024
+MBR14105,75+,F,HMO_Gold,South Bay,PRV189,CBP_BP_Control,Compliant,,,,,2024
+MBR37720,18-34,F,PPO_Standard,South Bay,PRV338,CDC_Eye_Exam,Compliant,,,,,2024
+MBR19077,50-64,F,HMO_Gold,South Bay,PRV716,CBP_BP_Control,Non-Compliant,2024-09-25,1,0,,2024
+MBR34127,18-34,M,PPO_Premium,South Bay,PRV674,BCS_Mammogram,Compliant,,,,,2024
