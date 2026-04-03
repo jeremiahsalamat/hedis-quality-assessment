@@ -1,0 +1,70 @@
+member_id,age_group,gender,plan_type,region,provider_id,screening_completed,screening_date,screening_type,result,follow_up_needed,follow_up_completed,measurement_year
+MBR10005,70-74,F,HMO_Silver,Downtown LA,PRV119,1,2024-07-04,MRI,Normal,0,,2024
+MBR10009,65-69,F,HMO_Gold,Downtown LA,PRV118,1,2024-11-10,Mammogram_Digital,Abnormal_Suspicious,1,1,2024
+MBR10011,70-74,F,Medi-Cal,Westside,PRV123,1,2024-09-02,Mammogram_3D,Inconclusive,1,0,2024
+MBR10021,70-74,F,Medi-Cal,Downtown LA,PRV119,1,2024-08-15,Mammogram_Digital,Normal,0,,2024
+MBR10022,70-74,F,HMO_Silver,Westside,PRV117,1,2024-02-03,Mammogram_Digital,Abnormal_Suspicious,1,0,2024
+MBR10025,70-74,F,Medi-Cal,South Bay,PRV118,1,2024-11-01,MRI,Abnormal_Suspicious,1,1,2024
+MBR10037,55-59,F,PPO_Standard,Downtown LA,PRV117,1,2024-12-25,Mammogram_Digital,Abnormal_Benign,0,,2024
+MBR10048,70-74,F,HMO_Silver,Downtown LA,PRV106,1,2024-04-26,Mammogram_3D,Abnormal_Suspicious,1,0,2024
+MBR10049,55-59,F,HMO_Silver,San Fernando Valley,PRV115,1,2024-02-18,Mammogram_3D,Inconclusive,1,1,2024
+MBR10054,50-54,F,Medi-Cal,Downtown LA,PRV105,1,2024-03-19,MRI,Inconclusive,1,1,2024
+MBR10057,65-69,F,Medi-Cal,East LA,PRV106,1,2024-02-19,MRI,Abnormal_Suspicious,1,0,2024
+MBR10061,70-74,F,PPO_Standard,Westside,PRV122,1,2024-10-14,MRI,Abnormal_Suspicious,1,0,2024
+MBR10063,55-59,F,PPO_Standard,San Fernando Valley,PRV101,1,2024-12-06,Mammogram_3D,Normal,0,,2024
+MBR10065,65-69,F,HMO_Silver,South Bay,PRV103,1,2024-06-29,Mammogram_Digital,Abnormal_Benign,0,,2024
+MBR10067,70-74,F,Medi-Cal,East LA,PRV101,1,2024-04-24,Mammogram_Digital,Abnormal_Suspicious,1,0,2024
+MBR10068,70-74,F,HMO_Gold,Westside,PRV109,1,2024-05-22,MRI,Abnormal_Benign,0,,2024
+MBR10071,60-64,F,PPO_Standard,San Fernando Valley,PRV103,0,,,,0,,2024
+MBR10072,70-74,F,HMO_Gold,San Fernando Valley,PRV111,1,2024-11-25,MRI,Normal,0,,2024
+MBR10083,55-59,F,HMO_Silver,Westside,PRV101,1,2024-05-19,MRI,Abnormal_Suspicious,1,0,2024
+MBR10085,60-64,F,Medi-Cal,Downtown LA,PRV122,1,2024-03-14,MRI,Inconclusive,1,1,2024
+MBR10086,70-74,F,HMO_Gold,San Fernando Valley,PRV109,1,2024-01-16,Mammogram_Digital,Abnormal_Benign,0,,2024
+MBR10088,70-74,F,PPO_Standard,Downtown LA,PRV120,1,2024-06-23,Mammogram_Digital,Abnormal_Suspicious,1,1,2024
+MBR10092,60-64,F,HMO_Gold,South Bay,PRV117,0,,,,0,,2024
+MBR10093,60-64,F,PPO_Standard,Downtown LA,PRV123,1,2024-01-27,Mammogram_Digital,Abnormal_Benign,0,,2024
+MBR10097,70-74,F,PPO_Premium,Downtown LA,PRV115,1,2024-02-11,Mammogram_3D,Inconclusive,1,0,2024
+MBR10099,65-69,F,HMO_Gold,Westside,PRV122,1,2024-07-31,Mammogram_3D,Abnormal_Benign,0,,2024
+MBR10103,70-74,F,PPO_Premium,Westside,PRV105,1,2024-02-26,Mammogram_3D,Inconclusive,1,1,2024
+MBR10105,65-69,F,HMO_Gold,East LA,PRV108,1,2024-07-21,MRI,Normal,0,,2024
+MBR10107,65-69,F,PPO_Premium,East LA,PRV124,1,2024-04-18,Mammogram_Digital,Abnormal_Suspicious,1,1,2024
+MBR10108,70-74,F,Medi-Cal,Downtown LA,PRV106,1,2024-08-08,Mammogram_Digital,Abnormal_Benign,0,,2024
+MBR10109,65-69,F,PPO_Standard,Westside,PRV121,1,2024-04-27,MRI,Abnormal_Suspicious,1,1,2024
+MBR10110,60-64,F,HMO_Silver,South Bay,PRV115,1,2024-08-23,Mammogram_Digital,Abnormal_Suspicious,1,1,2024
+MBR10114,65-69,F,Medi-Cal,Downtown LA,PRV114,1,2024-11-23,Mammogram_3D,Abnormal_Suspicious,1,1,2024
+MBR10119,65-69,F,HMO_Gold,Downtown LA,PRV111,0,,,,0,,2024
+MBR10125,70-74,F,PPO_Premium,South Bay,PRV103,0,,,,0,,2024
+MBR10130,70-74,F,PPO_Standard,Westside,PRV120,0,,,,0,,2024
+MBR10133,65-69,F,HMO_Silver,San Fernando Valley,PRV119,1,2024-02-24,Mammogram_Digital,Inconclusive,1,1,2024
+MBR10137,65-69,F,HMO_Gold,Downtown LA,PRV112,1,2024-06-07,MRI,Abnormal_Suspicious,1,1,2024
+MBR10139,70-74,F,Medi-Cal,East LA,PRV125,1,2024-11-20,Mammogram_Digital,Abnormal_Benign,0,,2024
+MBR10140,65-69,F,PPO_Premium,East LA,PRV109,1,2024-11-26,Mammogram_Digital,Abnormal_Benign,0,,2024
+MBR10143,65-69,F,HMO_Gold,Downtown LA,PRV111,1,2024-04-11,Mammogram_Digital,Abnormal_Benign,0,,2024
+MBR10145,60-64,F,Medi-Cal,South Bay,PRV118,1,2024-11-17,Mammogram_3D,Inconclusive,1,0,2024
+MBR10147,70-74,F,Medi-Cal,Westside,PRV123,1,2024-10-16,MRI,Abnormal_Suspicious,1,0,2024
+MBR10148,70-74,F,PPO_Premium,San Fernando Valley,PRV103,1,2024-02-04,Mammogram_3D,Inconclusive,1,0,2024
+MBR10150,70-74,F,PPO_Premium,East LA,PRV117,1,2024-06-29,MRI,Normal,0,,2024
+MBR10144,50-54,F,HMO_Silver,South Bay,PRV109,1,2024-01-20,Mammogram_Digital,Abnormal_Suspicious,1,0,2024
+MBR10142,50-54,F,Medi-Cal,East LA,PRV122,1,2024-02-16,MRI,Inconclusive,1,1,2024
+MBR10129,50-54,F,HMO_Gold,East LA,PRV107,1,2024-01-22,Mammogram_3D,Abnormal_Benign,0,,2024
+MBR10124,50-54,F,PPO_Standard,South Bay,PRV125,1,2024-08-31,MRI,Abnormal_Benign,0,,2024
+MBR10117,50-54,F,PPO_Standard,Downtown LA,PRV114,0,,,,0,,2024
+MBR10111,50-54,F,HMO_Silver,South Bay,PRV111,1,2024-06-24,MRI,Normal,0,,2024
+MBR10106,50-54,F,HMO_Silver,Downtown LA,PRV122,1,2024-03-29,Mammogram_Digital,Abnormal_Benign,0,,2024
+MBR10102,50-54,F,PPO_Premium,East LA,PRV107,1,2024-08-12,MRI,Abnormal_Benign,0,,2024
+MBR10098,50-54,F,HMO_Silver,San Fernando Valley,PRV110,1,2024-05-24,Mammogram_3D,Inconclusive,1,0,2024
+MBR10087,50-54,F,HMO_Gold,San Fernando Valley,PRV120,1,2024-01-27,MRI,Abnormal_Suspicious,1,1,2024
+MBR10084,50-54,F,PPO_Standard,South Bay,PRV103,1,2024-12-13,Mammogram_3D,Abnormal_Suspicious,1,1,2024
+MBR10082,50-54,F,HMO_Silver,Westside,PRV115,0,,,,0,,2024
+MBR10081,50-54,F,HMO_Silver,San Fernando Valley,PRV113,0,,,,0,,2024
+MBR10076,50-54,F,HMO_Silver,San Fernando Valley,PRV110,1,2024-03-17,Mammogram_3D,Normal,0,,2024
+MBR10073,50-54,F,HMO_Silver,Downtown LA,PRV118,1,2024-03-13,Mammogram_3D,Abnormal_Suspicious,1,0,2024
+MBR10066,50-54,F,PPO_Standard,Westside,PRV115,1,2024-07-19,Mammogram_Digital,Normal,0,,2024
+MBR10055,50-54,F,HMO_Silver,San Fernando Valley,PRV119,1,2024-07-11,MRI,Abnormal_Suspicious,1,0,2024
+MBR10045,50-54,F,PPO_Standard,Downtown LA,PRV114,1,2024-12-16,MRI,Normal,0,,2024
+MBR10044,50-54,F,PPO_Premium,Westside,PRV104,1,2024-08-04,MRI,Abnormal_Suspicious,1,1,2024
+MBR10024,50-54,F,Medi-Cal,San Fernando Valley,PRV113,1,2024-04-19,Mammogram_3D,Inconclusive,1,1,2024
+MBR10019,50-54,F,HMO_Silver,Downtown LA,PRV113,0,,,,0,,2024
+MBR10018,50-54,F,PPO_Premium,South Bay,PRV103,1,2024-05-31,Mammogram_Digital,Normal,0,,2024
+MBR10010,50-54,F,HMO_Gold,East LA,PRV110,1,2024-11-12,Mammogram_Digital,Inconclusive,1,1,2024
+MBR10008,50-54,F,HMO_Gold,South Bay,PRV112,1,2024-12-20,MRI,Abnormal_Benign,0,,2024
