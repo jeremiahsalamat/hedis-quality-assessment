@@ -1,0 +1,194 @@
+USE [master]
+GO
+/****** Object:  Database [hedis]    Script Date: 4/2/2026 5:54:25 PM ******/
+CREATE DATABASE [hedis]
+ CONTAINMENT = NONE
+ ON  PRIMARY 
+( NAME = N'hedis', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\hedis.mdf' , SIZE = 8192KB , MAXSIZE = UNLIMITED, FILEGROWTH = 65536KB )
+ LOG ON 
+( NAME = N'hedis_log', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\hedis_log.ldf' , SIZE = 8192KB , MAXSIZE = 2048GB , FILEGROWTH = 65536KB )
+ WITH CATALOG_COLLATION = DATABASE_DEFAULT
+GO
+ALTER DATABASE [hedis] SET COMPATIBILITY_LEVEL = 150
+GO
+IF (1 = FULLTEXTSERVICEPROPERTY('IsFullTextInstalled'))
+begin
+EXEC [hedis].[dbo].[sp_fulltext_database] @action = 'enable'
+end
+GO
+ALTER DATABASE [hedis] SET ANSI_NULL_DEFAULT OFF 
+GO
+ALTER DATABASE [hedis] SET ANSI_NULLS OFF 
+GO
+ALTER DATABASE [hedis] SET ANSI_PADDING OFF 
+GO
+ALTER DATABASE [hedis] SET ANSI_WARNINGS OFF 
+GO
+ALTER DATABASE [hedis] SET ARITHABORT OFF 
+GO
+ALTER DATABASE [hedis] SET AUTO_CLOSE OFF 
+GO
+ALTER DATABASE [hedis] SET AUTO_SHRINK OFF 
+GO
+ALTER DATABASE [hedis] SET AUTO_UPDATE_STATISTICS ON 
+GO
+ALTER DATABASE [hedis] SET CURSOR_CLOSE_ON_COMMIT OFF 
+GO
+ALTER DATABASE [hedis] SET CURSOR_DEFAULT  GLOBAL 
+GO
+ALTER DATABASE [hedis] SET CONCAT_NULL_YIELDS_NULL OFF 
+GO
+ALTER DATABASE [hedis] SET NUMERIC_ROUNDABORT OFF 
+GO
+ALTER DATABASE [hedis] SET QUOTED_IDENTIFIER OFF 
+GO
+ALTER DATABASE [hedis] SET RECURSIVE_TRIGGERS OFF 
+GO
+ALTER DATABASE [hedis] SET  DISABLE_BROKER 
+GO
+ALTER DATABASE [hedis] SET AUTO_UPDATE_STATISTICS_ASYNC OFF 
+GO
+ALTER DATABASE [hedis] SET DATE_CORRELATION_OPTIMIZATION OFF 
+GO
+ALTER DATABASE [hedis] SET TRUSTWORTHY OFF 
+GO
+ALTER DATABASE [hedis] SET ALLOW_SNAPSHOT_ISOLATION OFF 
+GO
+ALTER DATABASE [hedis] SET PARAMETERIZATION SIMPLE 
+GO
+ALTER DATABASE [hedis] SET READ_COMMITTED_SNAPSHOT OFF 
+GO
+ALTER DATABASE [hedis] SET HONOR_BROKER_PRIORITY OFF 
+GO
+ALTER DATABASE [hedis] SET RECOVERY FULL 
+GO
+ALTER DATABASE [hedis] SET  MULTI_USER 
+GO
+ALTER DATABASE [hedis] SET PAGE_VERIFY CHECKSUM  
+GO
+ALTER DATABASE [hedis] SET DB_CHAINING OFF 
+GO
+ALTER DATABASE [hedis] SET FILESTREAM( NON_TRANSACTED_ACCESS = OFF ) 
+GO
+ALTER DATABASE [hedis] SET TARGET_RECOVERY_TIME = 60 SECONDS 
+GO
+ALTER DATABASE [hedis] SET DELAYED_DURABILITY = DISABLED 
+GO
+ALTER DATABASE [hedis] SET ACCELERATED_DATABASE_RECOVERY = OFF  
+GO
+EXEC sys.sp_db_vardecimal_storage_format N'hedis', N'ON'
+GO
+ALTER DATABASE [hedis] SET QUERY_STORE = OFF
+GO
+USE [hedis]
+GO
+/****** Object:  Table [dbo].[hedis_blood_pressure]    Script Date: 4/2/2026 5:54:25 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[hedis_blood_pressure](
+	[member_id] [nvarchar](50) NOT NULL,
+	[age_group] [nvarchar](50) NOT NULL,
+	[gender] [nvarchar](50) NOT NULL,
+	[plan_type] [nvarchar](50) NOT NULL,
+	[region] [nvarchar](50) NOT NULL,
+	[provider_id] [nvarchar](50) NOT NULL,
+	[bp_measured] [bit] NOT NULL,
+	[systolic_reading] [tinyint] NULL,
+	[diastolic_reading] [tinyint] NULL,
+	[bp_adequately_controlled] [bit] NOT NULL,
+	[on_antihypertensive_med] [bit] NOT NULL,
+	[measurement_date] [date] NULL,
+	[measurement_year] [smallint] NOT NULL
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[hedis_breast_cancer_screening]    Script Date: 4/2/2026 5:54:25 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[hedis_breast_cancer_screening](
+	[member_id] [nvarchar](50) NOT NULL,
+	[age_group] [nvarchar](50) NOT NULL,
+	[gender] [nvarchar](50) NOT NULL,
+	[plan_type] [nvarchar](50) NOT NULL,
+	[region] [nvarchar](50) NOT NULL,
+	[provider_id] [nvarchar](50) NOT NULL,
+	[screening_completed] [bit] NOT NULL,
+	[screening_date] [date] NULL,
+	[screening_type] [nvarchar](50) NULL,
+	[result] [nvarchar](50) NULL,
+	[follow_up_needed] [bit] NOT NULL,
+	[follow_up_completed] [bit] NULL,
+	[measurement_year] [smallint] NOT NULL
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[hedis_diabetes_care]    Script Date: 4/2/2026 5:54:25 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[hedis_diabetes_care](
+	[member_id] [nvarchar](50) NOT NULL,
+	[age_group] [nvarchar](50) NOT NULL,
+	[gender] [nvarchar](50) NOT NULL,
+	[plan_type] [nvarchar](50) NOT NULL,
+	[region] [nvarchar](50) NOT NULL,
+	[provider_id] [nvarchar](50) NOT NULL,
+	[hba1c_test_completed] [bit] NOT NULL,
+	[hba1c_result] [float] NULL,
+	[hba1c_in_control] [bit] NOT NULL,
+	[eye_exam_completed] [bit] NOT NULL,
+	[nephropathy_screening_completed] [bit] NOT NULL,
+	[service_date] [date] NULL,
+	[measurement_year] [smallint] NOT NULL
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[hedis_gaps_in_care]    Script Date: 4/2/2026 5:54:25 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[hedis_gaps_in_care](
+	[member_id] [nvarchar](50) NOT NULL,
+	[age_group] [nvarchar](50) NOT NULL,
+	[gender] [nvarchar](50) NOT NULL,
+	[plan_type] [nvarchar](50) NOT NULL,
+	[region] [nvarchar](50) NOT NULL,
+	[provider_id] [nvarchar](50) NOT NULL,
+	[hedis_measure] [nvarchar](50) NOT NULL,
+	[compliance_status] [nvarchar](50) NOT NULL,
+	[gap_identified_date] [date] NULL,
+	[outreach_attempted] [bit] NULL,
+	[gap_closed] [bit] NULL,
+	[gap_closed_date] [date] NULL,
+	[measurement_year] [smallint] NOT NULL
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[hedis_medication_adherence]    Script Date: 4/2/2026 5:54:25 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[hedis_medication_adherence](
+	[member_id] [nvarchar](50) NOT NULL,
+	[age_group] [nvarchar](50) NOT NULL,
+	[gender] [nvarchar](50) NOT NULL,
+	[plan_type] [nvarchar](50) NOT NULL,
+	[region] [nvarchar](50) NOT NULL,
+	[provider_id] [nvarchar](50) NOT NULL,
+	[medication_class] [nvarchar](50) NOT NULL,
+	[first_fill_date] [date] NOT NULL,
+	[days_supply] [tinyint] NOT NULL,
+	[total_fills] [tinyint] NOT NULL,
+	[total_days_covered] [smallint] NOT NULL,
+	[pdc_ratio] [float] NOT NULL,
+	[is_adherent] [bit] NOT NULL,
+	[measurement_year] [smallint] NOT NULL
+) ON [PRIMARY]
+GO
+USE [master]
+GO
+ALTER DATABASE [hedis] SET  READ_WRITE 
+GO
