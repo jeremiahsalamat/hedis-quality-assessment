@@ -1,7 +1,5 @@
 -- Requirement 4 
 
-SELECT * FROM hedis_gaps_in_care;
-
 WITH ComplianceData AS (
 SELECT
 	g.member_id
