@@ -1,23 +1,23 @@
-# hedis-quality-assessment
+# HEDIS Quality Assessment
 
-## Summary 
-Analysis of health care plan on certain quality measures.
+## Summary
+Analysis of healthcare plan performance across key HEDIS (Healthcare Effectiveness Data and Information Set) quality measures using SQL. This project examines member-level compliance data across five interconnected datasets — including blood pressure control, diabetes care, breast cancer screening, medication adherence, and gaps in care — to assess plan quality and identify areas for improvement.
 
-## Requirements 
-1. Find the members with a controlling blood pressure and combine it with gaps in care to see which of those members are CBP Measure Compliant.
-2. Combining member_id and health_plan in a temp table and finding a count of all members in each health plan with unique counts.
-3. Find the average systolic/diastolic blood pressure for each gender.
-4. Creating a single view that shows each member's status across all their HEDIS measures: The total number of HEDIS measures tracked per member, how many are non-compliant, their overall compliance rate as a percentage, and showing only those who have a compliance rate < 50% ranked from worst to best.
-5. Find the providers that have the best medical adherence outcomes showing the provider ID, the total number of members each provider manages for medications, the total number of members who are adherent, and its rate as a percentage ranked. 
+## Requirements
+Identify members with controlled blood pressure readings and combine with gaps in care data to determine CBP (Controlling Blood Pressure) measure compliance.
+Consolidate member enrollment across all datasets using a temp table and calculate unique member counts by health plan type.
+Calculate average systolic and diastolic blood pressure readings by gender.
+Create a comprehensive member compliance view showing total HEDIS measures tracked per member, non-compliant count, and overall compliance rate — filtered to members below 50% compliance and ranked from worst to best.
+Rank providers by medication adherence outcomes, including total members managed, adherent member count, and adherence rate as a percentage.
 
-## Folders 
-/Data/csv 
--- Contains all relevant .csv HEDIS data 
+## Datasets
+FileDescriptionRecordshedis_blood_pressure.csvBlood pressure readings, control status, and antihypertensive medication use110hedis_breast_cancer_screening.csvMammogram and MRI screening completion, results, and follow-up tracking69hedis_diabetes_care.csvHbA1c testing, eye exams, and nephropathy screening for diabetic members100hedis_gaps_in_care.csvCompliance status across all HEDIS measures with outreach and gap closure tracking448hedis_medication_adherence.csvPrescription fill patterns, days covered, PDC ratios, and adherence status176
 
-/Data/db
--- Contains SQL database 
+## Project Structure
+/data/csv   -- HEDIS datasets (CSV)
+/data/db    -- SQL Server database schema
+/data/sql   -- SQL queries addressing each requirement
 
-/Data/sql
--- Contains SQL queries querying requirements 
-
-
+## Tools
+Microsoft SQL Server
+SQL Server Management Studio (SSMS)
