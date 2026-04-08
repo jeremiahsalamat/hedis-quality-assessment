@@ -25,10 +25,10 @@ END AS bp_adequately_controlled
 
 FROM dbo.hedis_blood_pressure bp
 INNER JOIN dbo.hedis_gaps_in_care gp 
-	ON bp.member_id = gp.member_id
-WHERE gp.compliance_status = 'Compliant')
+	ON bp.member_id = gp.member_id)
 
 -- NULL data for some systolic and diastolic values due to
 -- blood pressure data not taken on some patients
 -- as some patients blood pressure was not taken
-SELECT * FROM bp_compliance;
+SELECT * FROM bp_compliance bpc
+WWHERE bpc.compliance_status = 'Compliant';
