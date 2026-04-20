@@ -7,7 +7,7 @@ WITH AdherentInfo AS (
 	,SUM(CASE WHEN m.is_adherent = 1 THEN 1 ELSE 0 END) AS adherent_count
 	,ROUND(CAST(SUM(CASE WHEN m.is_adherent = 1 THEN 1 ELSE 0 END) AS NUMERIC)/COUNT(*) * 100,1) AS adherent_percentage
 	FROM 
-	hedis_medication_adherence m
+	dbo.hedis_med_adherence_mac_mad_mah m
 	GROUP BY m.provider_id
 )
 
