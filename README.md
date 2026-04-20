@@ -1,8 +1,8 @@
 # HEDIS Quality Assessment
 
-## Summary
+## Overview
 
-Analysis of healthcare plan performance across key HEDIS (Healthcare Effectiveness Data and Information Set) quality measures using SQL. This project examines member-level compliance data across five interconnected datasets — including blood pressure control, diabetes care, breast cancer screening, medication adherence, and gaps in care — to assess plan quality and identify areas for improvement.
+This project analyzes health plan performance across five HEDIS (Healthcare Effectiveness Data and Information Set) quality measures using synthetic member-level data. HEDIS is maintained by the National Committee for Quality Assurance (NCQA) and is the standard framework health plans use to measure and report on quality of care. The analysis is implemented in T-SQL and executed in Microsoft SQL Server Management Studio (SSMS), with queries covering measure compliance, member-level compliance tracking, and provider-level adherence ranking.
 
 ## Requirements
 
@@ -14,13 +14,13 @@ Analysis of healthcare plan performance across key HEDIS (Healthcare Effectivene
 
 ## Datasets
 
-| File | Description | Records |
-|------|-------------|---------|
-| `hedis_blood_pressure.csv` | Blood pressure readings, control status, and antihypertensive medication use | 110 |
-| `hedis_breast_cancer_screening.csv` | Mammogram and MRI screening completion, results, and follow-up tracking | 69 |
-| `hedis_diabetes_care.csv` | HbA1c testing, eye exams, and nephropathy screening for diabetic members | 100 |
-| `hedis_gaps_in_care.csv` | Compliance status across all HEDIS measures with outreach and gap closure tracking | 448 |
-| `hedis_medication_adherence.csv` | Prescription fill patterns, days covered, PDC ratios, and adherence status | 176 |
+| Measure Code | File | Description | Records |
+|---|---|---|---|
+| CBP | `hedis_cbp_controlling_blood_pressure.csv` | Blood pressure readings, control status, and antihypertensive medication use | 110 |
+| BCS | `hedis_bcs_breast_cancer_screening.csv` | Mammogram and MRI screening completion, results, and follow-up tracking | 69 |
+| CDC | `hedis_cdc_comprehensive_diabetes_care.csv` | HbA1c testing, eye exams, and nephropathy screening for diabetic members | 100 |
+| MAC / MAD / MAH | `hedis_med_adherence_mac_mad_mah.csv` | Prescription fill patterns, days covered, PDC ratios, and adherence status | 176 |
+| — | `hedis_gaps_in_care.csv` | Compliance status across all HEDIS measures with outreach and gap closure tracking | 448 |
 
 ## Project Structure
 
@@ -34,3 +34,8 @@ Analysis of healthcare plan performance across key HEDIS (Healthcare Effectivene
 
 - Microsoft SQL Server
 - SQL Server Management Studio (SSMS)
+- T-SQL
+
+## Disclaimer
+
+All data in this repository is synthetic and was generated for educational and portfolio purposes. No real patient data, Protected Health Information (PHI), or Personally Identifiable Information (PII) is included.
