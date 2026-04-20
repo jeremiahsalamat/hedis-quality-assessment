@@ -9,7 +9,7 @@ SELECT
 	,SUM(CASE WHEN g.compliance_status = 'Non-Compliant' THEN 1 ELSE 0 END) AS non_compliant_number
 	,ROUND(CAST(SUM(CASE WHEN g.compliance_status = 'Non-Compliant' THEN 1 ELSE 0 END) AS NUMERIC) / COUNT(*) * 100,1) AS compliance_percentage
 FROM
-	hedis_gaps_in_care g
+	dbo.hedis_gaps_in_care g
 GROUP BY 
 	g.member_id
 	,g.plan_type
