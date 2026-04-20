@@ -11,28 +11,28 @@ INTO #TotalHealthData FROM
 	SELECT DISTINCT
 	 member_id
 	,plan_type 
-	FROM dbo.hedis_blood_pressure
+	FROM dbo.hedis_cbp_controlling_blood_pressure
 
 	UNION
 
 	SELECT DISTINCT
 	member_id
 	,plan_type 
-	FROM dbo.hedis_breast_cancer_screening
+	FROM dbo.hedis_bcs_breast_cancer_screening
 
 	UNION 
 
 	SELECT DISTINCT
 	member_id
 	,plan_type 
-	FROM dbo.hedis_diabetes_care
+	FROM dbo.hedis_cdc_comprehensive_diabetes_care
 
 	UNION
 
 	SELECT DISTINCT
 	member_id
 	,plan_type 
-	FROM dbo.hedis_medication_adherence
+	FROM dbo.hedis_med_adherence_mac_mad_mah
 ) AS combined;
 
 
