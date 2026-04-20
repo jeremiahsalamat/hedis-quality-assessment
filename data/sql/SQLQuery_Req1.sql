@@ -23,7 +23,7 @@ END AS bp_adequately_controlled
 ,bp.systolic_reading
 ,bp.diastolic_reading
 
-FROM dbo.hedis_blood_pressure bp
+FROM dbo.hedis_cbp_controlling_blood_pressure bp
 INNER JOIN dbo.hedis_gaps_in_care gp 
 	ON bp.member_id = gp.member_id)
 
